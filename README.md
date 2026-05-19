@@ -13,6 +13,7 @@ Built for the 4-inch ESP32-S3 CYD (the "Cheap Yellow Display"), which you can fi
 - A UniFi Dream Machine on your network (UDM, UDM Pro, or UDM SE)
 - A computer with [VS Code](https://code.visualstudio.com) installed
 - A 2.4 GHz Wi-Fi network (the ESP32 doesn't do 5 GHz)
+- Optional: a 3D-printed case. I designed one for this exact board — [Desktop Case for CYD ESP32 4" Display on MakerWorld](https://makerworld.com/en/models/1810329-desktop-case-for-cyd-esp32-4-display#profileId-1942741).
 
 ## Setup
 
