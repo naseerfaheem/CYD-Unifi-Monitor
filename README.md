@@ -1,5 +1,7 @@
 # CYD UniFi Monitor
 
+![CYD UniFi Monitor in a 3D-printed desktop case showing live network throughput](docs/hero.png)
+
 A small always-on display for your home network. It shows your current download and upload speeds, how many devices are connected, ping, and uptime, pulled live from your UniFi controller.
 
 Built for the 4-inch ESP32-S3 CYD (the "Cheap Yellow Display"), which you can find on AliExpress or Amazon for around $20.
@@ -52,6 +54,8 @@ Open `platformio.ini` and put your COM port on the `upload_port` line.
 ### 5. Build and upload
 
 Click the PlatformIO icon (the alien head) in the sidebar, expand the project tasks, then click **Upload**. The first build downloads some libraries and can take a couple of minutes. When it's done, the CYD will reboot and start showing data within about 10 seconds.
+
+![Close-up of the dashboard with download/upload speeds, ping, experience score, and uptime](docs/display.png)
 
 ## When something's wrong
 
